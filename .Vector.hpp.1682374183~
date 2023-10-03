@@ -1,0 +1,61 @@
+#pragma once
+#include <iostream>;
+using std::size_t;
+
+/**
+* @brief A template Data Structure that 
+* handles a dynamic array 
+*/
+template<class T>class Vector{
+  private:
+    T* m_data = nullptr;
+    size_t m_size;
+    size_t m_capacity;
+
+  public:
+    Vector();
+    Vector(size_t capacity);
+    void push_back(T data);
+    
+};
+/**
+* @brief Default constructor that creates
+* a vector with capacity 2 and size = 0
+*/ 
+
+//en la clase tenemos un constructor vector y aquí lo voy a especificar
+
+template<class TT>Vector::Vector(){
+  m_capacity = 2;
+  m_size = 0;
+  m_data = new TT[m_capacity]
+  
+}
+
+/**
+* @brief Constructor that creates
+* a vector with capacity 2 and size = 0
+* @param capacity is the desired capacity of the new vector
+*/ 
+
+//en la clase tenemos un constructor vector y aquí lo voy a especificar
+ // size_t se modifica solo si necesitamos un número de mayor tamaño que cambia de int a long
+template<class TT>
+Vector::Vector(size_t t_capacity){
+  m_capacity = t_capacity;
+  m_size = 0;
+  m_data = new TT[m_capacity];
+}
+
+/**
+* @brief Adds a new data at the end of the vector
+* that means the next index after m_size value
+* @tparam value of the new data
+*/ 
+
+
+template<class TT>
+void Vector::push_back(T t_capacity){
+  
+}
+
