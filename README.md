@@ -85,10 +85,4 @@ double value = myVector.at(1);
 
 Feel free to explore the code and use these data structures in your C++ projects. They can be valuable tools for managing dynamic data efficiently.
 
-## Contributions
-Contributions to this repository are welcome! If you have improvements, bug fixes, or additional features to add, please submit a pull request.
-
-## License
-This project is licensed under the MIT License.
-
 Happy coding!
