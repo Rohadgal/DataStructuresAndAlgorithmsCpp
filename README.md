@@ -1,6 +1,52 @@
-# Data Structures in C++: LinkedList and Vector
+# Data Structures in C++
 
-Welcome to the Data Structures in C++ repository! This repository provides two fundamental data structures: a LinkedList and a Vector, both implemented in C++. These data structures can be used in various applications, and this README will guide you on how to utilize them effectively.
+This repository provides various data structures implemented in C++ to help you manage and manipulate data efficiently.
+
+## Data Structures Included
+
+### Vector
+
+A dynamic array that can grow or shrink in size as needed. It is a versatile data structure commonly used for storing collections of elements.
+
+### Linked List
+
+A dynamic data structure where elements (nodes) are connected sequentially, with each node pointing to the next one. Linked lists are flexible for inserting and deleting elements.
+
+### Double Linked List
+
+Similar to a Linked List, but with each node pointing to both the next and previous nodes, allowing for bidirectional traversal.
+
+### Circular Linked List
+
+A Linked List where the last node points back to the first node, creating a circular structure. It is useful for applications that require continuous cycling through data.
+
+### Double Circular Linked List
+
+Combines the features of a Double Linked List and a Circular Linked List, allowing for bidirectional traversal in a circular manner.
+
+### Queue
+
+A linear data structure that follows the First-In-First-Out (FIFO) principle. Elements are added to the back (enqueue) and removed from the front (dequeue).
+
+### Stack
+
+A linear data structure that follows the Last-In-First-Out (LIFO) principle. Elements are added and removed from the same end, typically called the "top."
+
+### Binary Tree
+
+A hierarchical data structure where each node has, at most, two children: left and right. It is commonly used for efficient searching and sorting operations.
+
+### Tree
+
+A more general hierarchical data structure that can have multiple child nodes. Trees are used for various applications, including hierarchical data representation.
+
+### Graph
+
+A data structure that represents relationships between entities. Graphs consist of nodes (vertices) and edges connecting them. They are used for various network-related applications.
+
+## Example Usage
+
+Here's a quick example of how to use these data structures:
 
 ## LinkedList
 
